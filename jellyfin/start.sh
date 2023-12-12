@@ -21,7 +21,7 @@ function SERVER_CONFIG {
 function SERVER_CREATE {
     local BUILD_CACHE=(
         --volume='/var/cache/pacman/pkg:/var/cache/pacman/pkg:rslave'
-        #--no-cache='true'
+        --no-cache='true'
     )
 
     # WEB [/dist]

@@ -104,7 +104,7 @@ function CLI {
         ;;
 
         'help' | *)
-            printf '%s\n' 'Usage: start.sh {start|stop}'
+            printf '%s\n' 'Usage: start.sh <build|start|stop> [args]'
         ;;
     esac
 }
